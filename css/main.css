@@ -69,6 +69,7 @@ header {
   margin: 0 0 30px;
   padding: 5px 0 0;
   width: 100%;
+  -webkit-box-shadow: var(--box-shadow);
   box-shadow: var(--box-shadow);
   font-family: "Raleway", Arial, Helvetica, sans-serif;
 }
@@ -129,6 +130,7 @@ nav a:visited {
   letter-spacing: 2px;
   padding: 6px;
   border-bottom: 2px solid transparent;
+  -webkit-transition: 0.2s;
   transition: 0.2s;
 }
 
@@ -155,6 +157,7 @@ GALLERY SECTION
 
 #gallery .card {
   margin: 0;
+  -webkit-box-shadow: var(--box-shadow);
   box-shadow: var(--box-shadow);
 }
 
@@ -167,6 +170,7 @@ GALLERY SECTION
 #gallery .card-body a:link,
 #gallery .card-body a:visited {
   color: var(--color-gray);
+  -webkit-transition: 0.2s;
   transition: 0.2s;
 }
 
@@ -204,12 +208,14 @@ PAGE ABOUT
   margin: 0 auto 30px;
   border-radius: 100%;
   overflow: hidden;
+  -webkit-box-shadow: var(--box-shadow);
   box-shadow: var(--box-shadow);
 }
 
 .profile-photo {
   display: block;
   width: 100%;
+  -webkit-transform: scale(1.6);
   transform: scale(1.6);
 }
 
@@ -223,13 +229,21 @@ PAGE CONTACT
 }
 
 .contact-info li {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
   align-items: center;
 }
 
 .contact-info li a {
   padding-right: 1rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
   align-items: center;
 }
 
